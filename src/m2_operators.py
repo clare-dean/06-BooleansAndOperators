@@ -21,7 +21,18 @@ t2 = "cat"
 #   
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
-
+def equal(x, y):
+    return x == y
+def not_equel(x, y):
+    return x != y
+def greater_than(x, y):
+    return x > y
+def less_than(x, y):
+    return x < y
+def greater_than_or_equal_to(x, y):
+    return x >= y
+def less_than_or_equel_to(x, y):
+    return x <= y
 ###############################################################################
 # TODO: 2. (2 pts)
 #
@@ -41,7 +52,8 @@ t2 = "cat"
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
-
+print(t1 in txt)
+print(t2 in txt)
 ###############################################################################
 # TODO: 3. (1 pt)
 #
@@ -53,3 +65,4 @@ t2 = "cat"
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
+print(t1 != t2)
